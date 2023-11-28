@@ -1,3 +1,25 @@
 body{
+    width: 1440px;
+    height: 1024px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #f2ece7;
+    color: #223366;
+
+}
+
+
+main{
     background-image: url(image-fond.jfif);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    color: white;
+
 }
