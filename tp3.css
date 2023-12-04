@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body{
     width: 1440px;
     height: 1024px;
@@ -73,3 +74,79 @@ th:last-child a {
     font-style: italic;
     color: white;
 }
+=======
+body{
+    width: 1440px;
+    height: 1024px;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: #f2ece7;
+    color: #223366;
+
+}
+
+.paragraphe-acceuil{
+  
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    color: white;
+    width: 1440px;
+    height: 1024px;
+    
+
+
+}
+.Lien-bas-acceuil{
+    background-color: rgb(245, 245, 245);
+    
+    width: 489;
+    height: 105;
+}
+.paragraphe-apropos{
+    background-image: url(image-fond.jfif);
+    
+    color: white;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main{
+    background-image: url(image-fond.jfif);
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    color: white;
+
+}
+th a {
+    
+    display: block;
+    padding: 0px;
+    margin-right: 65px; /* Add your desired right margin */
+ /* Set your desired border color and thickness */
+    font-size: 35px;
+    text-decoration: none; /* Remove the default underline for links */
+    color: #333; /* Set your desired text color */
+}
+
+th:last-child a {
+    margin-right: 0; /* Remove right margin for the last menu item */
+}
+
+#image_fleur img {
+    width: 200px; /* Set the desired width */
+    height: 200px; /* Maintain the aspect ratio */
+}
+>>>>>>> e319e5252978b6176d75a0f68f963d5ad0816c7d
