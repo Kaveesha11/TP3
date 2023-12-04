@@ -3,31 +3,24 @@ body{
     height: 1024px;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #f2ece7;
     color: #223366;
-
+    padding-right: 20px; /* Adjust the right padding as needed */
 }
-
 
 body {
     margin: 0;
     padding: 0;
+ background-image: url(image-fond.jfif);
+ background-size: cover; 
+ background-repeat: no-repeat;
 }
 
-main{
-    background-image: url(image-fond.jfif);
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    justify-content: center;
-    color: white;
-
-}
 th a {
     
     display: block;
@@ -46,4 +39,37 @@ th:last-child a {
 #image_fleur img {
     width: 200px; /* Set the desired width */
     height: 200px; /* Maintain the aspect ratio */
+}
+
+#ancre1 {
+    text-align: center; /* Center horizontally */
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100vh; /* Set the height of the container to the full viewport height */
+    margin: 0; /* Remove any default margin */
+}
+.center-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Set the container height to the full viewport height */
+}
+
+.center-container h1 em {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
+}
+
+.center-container h3 em {
+    font-style: italic;
+    color: white;
+}
+
+.center-container p em {
+    font-weight: bold;
+    font-style: italic;
+    color: white;
 }
