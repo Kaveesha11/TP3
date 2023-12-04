@@ -1,7 +1,10 @@
-<<<<<<< HEAD
-body{
-    width: 1440px;
-    height: 1024px;
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('image-fond.png'); /* Replace 'background.jpg' with your image file */
+    background-size: cover; /* Ensure the background covers the entire page */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-attachment: fixed; /* Fixed background */
 }
 
 nav {
@@ -11,26 +14,16 @@ nav {
     justify-content: space-between;
     background-color: #f2ece7;
     color: #223366;
-    padding-right: 20px; /* Adjust the right padding as needed */
-}
-
-body {
-    margin: 0;
-    padding: 0;
- background-image: url(image-fond.jfif);
- background-size: cover; 
- background-repeat: no-repeat;
 }
 
 th a {
-    
     display: block;
-    padding: 0px;
-    margin-right: 65px; /* Add your desired right margin */
- /* Set your desired border color and thickness */
-    font-size: 35px;
+    padding: 10px;
+    margin-right: 15px; /* Add your desired right margin */
+    border: 1px solid beige; /* Set your desired border color and thickness */
     text-decoration: none; /* Remove the default underline for links */
     color: #333; /* Set your desired text color */
+    font-size: 16px; /* Set your desired font size */
 }
 
 th:last-child a {
@@ -50,12 +43,13 @@ th:last-child a {
     height: 100vh; /* Set the height of the container to the full viewport height */
     margin: 0; /* Remove any default margin */
 }
+
 .center-container {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh; /* Set the container height to the full viewport height */
+    height: calc(100vh - 3px); /* Subtract the height of the menu border */
 }
 
 .center-container h1 em {
@@ -74,79 +68,11 @@ th:last-child a {
     font-style: italic;
     color: white;
 }
-=======
-body{
-    width: 1440px;
-    height: 1024px;
-}
 
-nav{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: nowrap;
-    justify-content: space-between;
-    background-color: #f2ece7;
-    color: #223366;
-
-}
-
-.paragraphe-acceuil{
-  
+main {
+    background-image: url('image-fond.jfif');
     display: flex;
     flex-direction: column;
-   
     justify-content: center;
     color: white;
-    width: 1440px;
-    height: 1024px;
-    
-
-
 }
-.Lien-bas-acceuil{
-    background-color: rgb(245, 245, 245);
-    
-    width: 489;
-    height: 105;
-}
-.paragraphe-apropos{
-    background-image: url(image-fond.jfif);
-    
-    color: white;
-
-}
-
-body {
-    margin: 0;
-    padding: 0;
-}
-
-main{
-    background-image: url(image-fond.jfif);
-    display: flex;
-    flex-direction: column;
-   
-    justify-content: center;
-    color: white;
-
-}
-th a {
-    
-    display: block;
-    padding: 0px;
-    margin-right: 65px; /* Add your desired right margin */
- /* Set your desired border color and thickness */
-    font-size: 35px;
-    text-decoration: none; /* Remove the default underline for links */
-    color: #333; /* Set your desired text color */
-}
-
-th:last-child a {
-    margin-right: 0; /* Remove right margin for the last menu item */
-}
-
-#image_fleur img {
-    width: 200px; /* Set the desired width */
-    height: 200px; /* Maintain the aspect ratio */
-}
->>>>>>> e319e5252978b6176d75a0f68f963d5ad0816c7d
