@@ -13,6 +13,31 @@ nav{
 
 }
 
+.paragraphe-acceuil{
+  
+    display: flex;
+    flex-direction: column;
+   
+    justify-content: center;
+    color: white;
+    width: 1440px;
+    height: 1024px;
+    
+
+
+}
+.Lien-bas-acceuil{
+    background-color: rgb(245, 245, 245);
+    
+    width: 489;
+    height: 105;
+}
+.paragraphe-apropos{
+    background-image: url(image-fond.jfif);
+    
+    color: white;
+
+}
 
 body {
     margin: 0;
@@ -23,7 +48,7 @@ main{
     background-image: url(image-fond.jfif);
     display: flex;
     flex-direction: column;
-    flex-wrap: nowrap;
+   
     justify-content: center;
     color: white;
 
