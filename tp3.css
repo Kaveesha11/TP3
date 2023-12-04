@@ -11,10 +11,40 @@ nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
+    justify-content: center;
     background-color: #f2ece7;
     color: #223366;
+    
 }
+
+.paragraphe-acceuil{
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+}
+.tableau-info-japon{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    background-color: beige;
+    color: black;
+    width: max-content;
+}
+.paragraphe-info{
+    height: fit-content;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: blue;
+    color: white;
+    text-align: center;
+}
+
 
 th a {
     display: block;
@@ -49,7 +79,8 @@ th:last-child a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: calc(100vh - 3px); /* Subtract the height of the menu border */
+    height: 450px;
+    /*height: calc(100vh - 3px); /* Subtract the height of the menu border */
 }
 
 .center-container h1 em {
