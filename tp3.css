@@ -119,7 +119,7 @@ th a {
  /* Set your desired border color and thickness */
     font-size: 35px;
     text-decoration: none; /* Remove the default underline for links */
-    color: rgb(1, 1, 50; /* Set your desired text color */
+    color: rgb(1, 1, 50); /* Set your desired text color */
 }
 
 th:last-child a {
