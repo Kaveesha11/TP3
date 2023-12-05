@@ -172,6 +172,14 @@ nav{
    text-align: center;
 }
 
+/*code pour les video*/
+.video{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
 
 
 
