@@ -1,3 +1,4 @@
+/*code css pour toute les pages menu et body*/
 nav {
     display: flex;
     flex-direction: row;
@@ -5,37 +6,34 @@ nav {
     justify-content: space-between;
     background-color: #f2ece7;
     color: #223366;
-    padding-right: 20px; /* Adjust the right padding as needed */
+    padding-right: 20px;
 }
 
 body {
     margin: 0;
     padding: 0;
-    background-image: url('image-fond.png'); /* Replace 'background.jpg' with your image file */
-    background-size: cover; /* Ensure the background covers the entire page */
-    background-repeat: no-repeat; /* Prevent the background from repeating */
-    background-attachment: fixed; /* Fixed background */
+    background-image: url('image-fond.png'); 
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
     background-color: black;
 }
 
-
-
 th:last-child a {
-    margin-right: 0; /* Remove right margin for the last menu item */
+    margin-right: 0; 
 }
 
 #image_fleur img {
-    width: 200px; /* Set the desired width */
-    height: 200px; /* Maintain the aspect ratio */
+    width: 200px;
+    height: 200px; 
 }
-
 
 
 #ancre1 {
     font-size: 58px;
     font-weight: bold;
     color: white;
-    margin-top: 380px; /* Remove default margin to move closer to the top */
+    margin-top: 380px; 
 }
 
 #dec{
@@ -43,14 +41,14 @@ th:last-child a {
     color: white;
     font-size: 23px;
 
-/* Adjust the margin-top to move it closer to the top */
+
 }
 
 #exp {
     margin-top: 70px;
     font-style: italic;
     color: white;
-    font-size: 26px; /* Adjust the margin-top to move it closer to the top */
+    font-size: 26px; 
 }
 body{
     width: 1440px;
@@ -67,6 +65,7 @@ nav{
 
 }
 
+/*code pour la page dacceuil*/
 .paragraphe-acceuil{
   
     display: flex;
@@ -90,12 +89,15 @@ nav{
     margin-top: 70px;
 }
 
+/*code pour la page da propos*/
 .paragraphe-apropos{
     background-image: url(image-fond.jfif);
     
     color: white;
 
 }
+
+/*code css pour la page info hiroshima*/
 .paragraphe-hiroshima{
     background-color: #f2ece7;
 
@@ -115,9 +117,65 @@ nav{
 .titre-h3{
     color: white;
 }
+.retour-h{
+    background-color: rgb(187, 187, 255);
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+
+/*code pour la page de kyoto*/
+.titre-k1{
+    color: white;
+}
+.titre-k3{
+    color: white;
+}
+.table-k1{
+    background-color: #f2ece7;
+}
+.table-k2{
+    background-color: #f2ece7;
+}
+.retour-k{
+    background-color: rgb(187, 187, 255);
+    margin: 0;
+    padding: 0;
+   text-align: center;
+}
+
+/*code pour la page de osaka*/
+.titre-o{
+    color: white;
+}
+.table-o{
+    background-color: #f2ece7;
+}
+.retour-o{
+    background-color: rgb(187, 187, 255);
+    margin: 0;
+    padding: 0;
+   text-align: center;
+}
+/*codde pour la page tokyo*/
+.titre-t{
+    color: white;
+}
+.table-t{
+    background-color: #f2ece7;
+}
+.retour-t{
+    background-color: rgb(187, 187, 255);
+    margin: 0;
+    padding: 0;
+   text-align: center;
+}
 
 
 
+
+/*code generale pour toute les pages*/
 body {
     margin: 0;
     padding: 0;
@@ -136,24 +194,23 @@ th a {
     
     display: block;
     padding: 0px;
-    margin-right: 65px; /* Add your desired right margin */
- /* Set your desired border color and thickness */
+    margin-right: 65px; 
     font-size: 35px;
-    text-decoration: none; /* Remove the default underline for links */
-    color: rgb(1, 1, 50); /* Set your desired text color */
+    text-decoration: none; 
+    color: rgb(1, 1, 50); 
 }
 
 th:last-child a {
-    margin-right: 0; /* Remove right margin for the last menu item */
+    margin-right: 0; 
 }
 
 #image_fleur img {
-    width: 280px; /* Set the desired width */
-    height: 180px; /* Maintain the aspect ratio */
+    width: 280px; 
+    height: 180px;
 }
 
 .paragraphe-acceuil {
-    height: 400px; /* Adjust the height value as needed */
+    height: 400px; 
     text-align: center;
 
 }
