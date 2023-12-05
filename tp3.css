@@ -166,3 +166,19 @@ th:last-child a {
 
 }
 
+.rectangle {
+    width: 450px;
+    height: 600px;
+    background-color: rgb(1, 1, 50);
+    margin: 100px 80px 90px 100px; /* Updated margin for left alignment */
+    border: 2px solid #ffffff;
+    border-radius: 60px;
+    text-align: center;
+    line-height: 100px;
+    color: #fff;
+    font-size: 38px;
+    opacity: 70%;
+   
+}
+
+
