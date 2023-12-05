@@ -179,6 +179,14 @@ nav{
     flex-wrap: nowrap;
     justify-content: space-between;
 }
+/*code pour le formulaire*/
+.formulaire{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    color: #f2ece7;
+}
 
 
 
