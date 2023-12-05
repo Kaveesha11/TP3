@@ -96,6 +96,27 @@ nav{
     color: white;
 
 }
+.paragraphe-hiroshima{
+    background-color: #f2ece7;
+
+}
+.paragraphe-h2{
+    background-color: #f2ece7;
+}
+.paragraphe-h3{
+    color: white;
+}
+.titre-hiroshima{
+    color: white;
+}
+.titre-h2{
+    color: white;
+}
+.titre-h3{
+    color: white;
+}
+
+
 
 body {
     margin: 0;
