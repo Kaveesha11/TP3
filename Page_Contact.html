@@ -22,9 +22,9 @@
             </table>
         </nav>
         <div class="formulaire"> 
-        <label > for="firstname">Prenom : </label>
+        <label  for="firstname">Prenom : </label>
         <input type="text" id="firstname" name="firstname" required>
-        <label for="lastname">Nom</label>
+        <label for="lastname">Nom : </label>
         <input type="text" id="lastname" nom="lastname" required>
         <p>Quelle age avez-vous? <br>
             <input type="radio" name="age" value="15-25" id="15-25"> <label for="15-25">Entre 15 et 25 ans</label><br>
@@ -32,12 +32,13 @@
             <input type="radio" name="age" value="36+" id="36+"> <label for="36+">36 ans et plus</label>
         </p>
         <label for="feedback">A propos de quoi est-elle la question? </label>
-        <textarea name="feedback" id="feedback" rows="3" placeholder="Ecriver ici..."></textarea>
+        <textarea name="feedback" id="feedback" rows="3" placeholder="Ecriver ici..." required></textarea>
 
         <label for="feedback2">Y allez-vous seul, entre ami ou en famille? </label>
-        <textarea name="feedback2" id="feedback2" rows="3" placeholder="Ecriver ici..."></textarea>
+        <textarea name="feedback2" id="feedback2" rows="3" placeholder="Ecriver ici..." required></textarea>
 
         <label for="feedback3">But du voyage :  </label>
-        <textarea name="feedback3" id="feedback3" rows="5" placeholder="Ecriver ici..."></textarea>
+        <textarea name="feedback3" id="feedback3" rows="5" placeholder="Ecriver ici..." required></textarea>
+        <input type="submit" value="Envoyer"> 
       </div> 
     </header>

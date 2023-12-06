@@ -186,6 +186,12 @@ nav{
     flex-wrap: nowrap;
     justify-content: space-between;
     color: #f2ece7;
+    width: fit-content;
+}
+
+.texte-info{
+    color: white;
+    background-color: white;
 }
 
 
