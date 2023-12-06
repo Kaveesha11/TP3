@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -11,6 +12,7 @@
         <nav>
             <table>
                 <tr>
+                    <!--Menu-->
                     <th id="image_fleur"><a href="Tp3_Acceuil.html"><img src="logo.png" alt=""></a></th>
                     <th><a href="Tp3_Acceuil.html"><strong>Accueil</strong></a></th>
                     <th><a href="Page_A_Propos.html"><strong>A propos</strong></a></th>
@@ -19,15 +21,23 @@
                 </tr>
             </table>
         </nav>
-    </header>
+        <div class="formulaire"> 
+        <label > for="firstname">Prenom : </label>
+        <input type="text" id="firstname" name="firstname" required>
+        <label for="lastname">Nom</label>
+        <input type="text" id="lastname" nom="lastname" required>
+        <p>Quelle age avez-vous? <br>
+            <input type="radio" name="age" value="15-25" id="15-25"> <label for="15-25">Entre 15 et 25 ans</label><br>
+            <input type="radio" name="age" value="25-35" id="25-35"> <label for="25-35">Entre 25 et 35 ans</label><br>
+            <input type="radio" name="age" value="36+" id="36+"> <label for="36+">36 ans et plus</label>
+        </p>
+        <label for="feedback">A propos de quoi est-elle la question? </label>
+        <textarea name="feedback" id="feedback" rows="3" placeholder="Ecriver ici..."></textarea>
 
-<main>
-    <div class="rectangle">
-        <strong> CONTACTEZ-NOUS</strong>
-            <img src="phone.png" alt="Description of Image 1">
-            <img src="image2.jpg" alt="Description of Image 2">
-            <img src="image3.jpg" alt="Description of Image 3">
-            <img src="image4.jpg" alt="Description of Image 4">
-    </div>
-    
-</main>
+        <label for="feedback2">Y allez-vous seul, entre ami ou en famille? </label>
+        <textarea name="feedback2" id="feedback2" rows="3" placeholder="Ecriver ici..."></textarea>
+
+        <label for="feedback3">But du voyage :  </label>
+        <textarea name="feedback3" id="feedback3" rows="5" placeholder="Ecriver ici..."></textarea>
+      </div> 
+    </header>
