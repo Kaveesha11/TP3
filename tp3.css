@@ -182,15 +182,16 @@ nav{
 /*code pour le formulaire*/
 
 .formulaire {
-    margin-top: 10px;
+    margin-bottom:20px; /* Increase the margin-top value to move the form higher */
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     color: #f2ece7;
-    width: 400px; /* Adjust the width of the form */
+    width: 400px;
     margin-left: 900px;
 }
+
 
 
 
@@ -251,24 +252,27 @@ th:last-child a {
 
 }
 
-.rectangle {
-    width: 450px;
-    height: 600px;
-    background-color: rgb(1, 1, 50);
-    margin: 100px 80px 90px 100px; /* Updated margin for left alignment */
-    border: 2px solid #ffffff;
-    border-radius: 60px;
+
+.image-container {
     text-align: center;
-    line-height: 100px;
-    color: #fff;
-    font-size: 38px;
-    opacity: 70%;
+    margin-top: 20px;
    
 }
-.rectangle img {
-    width: 40px; /* Make the images fill the entire width of the rectangle */
-    height: 40px; /* Maintain the aspect ratio */
-     /* Add space between images */
+
+.image-container img {
+    width: 200px;
+    height: auto;
+    border-radius: 5px;
 }
+
+/* Adjust the font size for image descriptions */
+.image-container img {
+    margin-top: 10px;
+}
+
+.image-description {
+    font-size: 15px; /* Adjust the font size for image descriptions as needed */
+}
+
 
 
