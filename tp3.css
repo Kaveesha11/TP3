@@ -1,4 +1,4 @@
-/*code css pour toute les pages menu et body*/
+/* Styles pour la barre de navigation et le corps du site */
 nav {
     display: flex;
     flex-direction: row;
@@ -12,177 +12,179 @@ nav {
 body {
     margin: 0;
     padding: 0;
-    background-image: url('image-fond.png'); 
-    background-size: cover; 
-    background-repeat: no-repeat; 
-    background-attachment: fixed; 
+    background-image: url('image-fond.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
     background-color: black;
 }
 
-th:last-child a {
-    margin-right: 0; 
-}
-
+/* Styles spécifiques pour l'image avec l'ID 'image_fleur' */
 #image_fleur img {
     width: 200px;
-    height: 200px; 
+    height: 200px;
 }
 
-
+/* Styles pour les éléments avec l'ID 'ancre1', 'dec', et 'exp' */
 #ancre1 {
     font-size: 58px;
     font-weight: bold;
     color: white;
-    margin-top: 380px; 
+    margin-top: 380px;
 }
 
-#dec{
+#dec {
     font-style: italic;
     color: white;
     font-size: 23px;
-
-
 }
 
 #exp {
     margin-top: 70px;
     font-style: italic;
     color: white;
-    font-size: 26px; 
+    font-size: 26px;
 }
-body{
+
+/* Styles généraux pour le corps du site */
+body {
     width: 1440px;
     height: 1024px;
 }
 
-nav{
+nav {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
     background-color: #f2ece7;
     color: #223366;
-
 }
 
-/*code pour la page dacceuil*/
-.paragraphe-acceuil{
-  
+/* Styles spécifiques pour la page d'accueil */
+.paragraphe-acceuil {
     display: flex;
     flex-direction: column;
-   
     justify-content: center;
     color: white;
     width: 1440px;
     height: 1024px;
-    
-
-
 }
+
 .Lien-bas-acceuil {
     background-color: rgb(255, 255, 255);
     text-align: center;
     width: 500px;
-
     margin-left: auto;
     margin-right: auto;
     margin-top: 70px;
 }
 
-/*code pour la page da propos*/
-.paragraphe-apropos{
+/* Styles spécifiques pour la page 'A propos' */
+.paragraphe-apropos {
     background-image: url(image-fond.jfif);
-    
     color: white;
-
 }
 
-/*code css pour la page info hiroshima*/
-.paragraphe-hiroshima{
-    background-color: #f2ece7;
-
-}
-.paragraphe-h2{
+/* Styles spécifiques pour la page 'Info Hiroshima' */
+.paragraphe-hiroshima {
     background-color: #f2ece7;
 }
-.paragraphe-h3{
+
+.paragraphe-h2 {
+    background-color: #f2ece7;
+}
+
+.paragraphe-h3 {
     color: white;
 }
-.titre-hiroshima{
+
+.titre-hiroshima {
     color: white;
 }
-.titre-h2{
+
+.titre-h2 {
     color: white;
 }
-.titre-h3{
+
+.titre-h3 {
     color: white;
 }
-.retour-h{
+
+.retour-h {
     background-color: rgb(187, 187, 255);
     margin: 0;
     padding: 0;
     text-align: center;
 }
 
+/* Styles spécifiques pour la page 'Kyoto' */
+.titre-k1 {
+    color: white;
+}
 
-/*code pour la page de kyoto*/
-.titre-k1{
+.titre-k3 {
     color: white;
 }
-.titre-k3{
-    color: white;
-}
-.table-k1{
+
+.table-k1 {
     background-color: #f2ece7;
 }
-.table-k2{
+
+.table-k2 {
     background-color: #f2ece7;
 }
-.retour-k{
+
+.retour-k {
     background-color: rgb(187, 187, 255);
     margin: 0;
     padding: 0;
-   text-align: center;
+    text-align: center;
 }
 
-/*code pour la page de osaka*/
-.titre-o{
+/* Styles spécifiques pour la page 'Osaka' */
+.titre-o {
     color: white;
 }
-.table-o{
+
+.table-o {
     background-color: #f2ece7;
 }
-.retour-o{
+
+.retour-o {
     background-color: rgb(187, 187, 255);
     margin: 0;
     padding: 0;
-   text-align: center;
+    text-align: center;
 }
-/*codde pour la page tokyo*/
-.titre-t{
+
+/* Styles spécifiques pour la page 'Tokyo' */
+.titre-t {
     color: white;
 }
-.table-t{
+
+.table-t {
     background-color: #f2ece7;
 }
-.retour-t{
+
+.retour-t {
     background-color: rgb(187, 187, 255);
     margin: 0;
     padding: 0;
-   text-align: center;
+    text-align: center;
 }
 
-/*code pour les video*/
-.video{
+/* Styles pour les vidéos */
+.video {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
 }
-/*code pour le formulaire*/
 
+/* Styles pour le formulaire */
 .formulaire {
-    margin-bottom:20px; /* Increase the margin-top value to move the form higher */
+    margin-bottom: 20px;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -192,66 +194,40 @@ nav{
     margin-left: 900px;
 }
 
-
-
-
-
-.texte-info{
+.texte-info {
     color: white;
-    background-color: white;
 }
 
-
-
-
-/*code generale pour toute les pages*/
-body {
-    margin: 0;
-    padding: 0;
-}
-
-main{
+/* Styles généraux pour toutes les pages */
+main {
     background-image: url(image-fond.jfif);
     display: flex;
     flex-direction: column;
-   
     justify-content: center;
     color: white;
-
 }
+
 th a {
-    
     display: block;
     padding: 0px;
-    margin-right: 65px; 
+    margin-right: 65px;
     font-size: 35px;
-    text-decoration: none; 
-    color: rgb(1, 1, 50); 
+    text-decoration: none;
+    color: rgb(1, 1, 50);
 }
 
 th:last-child a {
-    margin-right: 0; 
+    margin-right: 0;
 }
 
-#image_fleur img {
-    width: 280px; 
-    height: 180px;
-}
-
-.paragraphe-acceuil {
-    height: 400px; 
-    text-align: center;
-
-}
-
-#button
-{
+/* Styles spécifiques pour le bouton sur la page d'accueil */
+#button {
     height: 60px;
     text-align: center;
     font-size: 2px;
-
 }
 
+/* Styles pour le rectangle sur la page d'accueil */
 .rectangle {
     width: 450px;
     height: 600px;
@@ -265,42 +241,35 @@ th:last-child a {
     font-size: 38px;
     opacity: 0.7;
 }
-.image-container{
-    font-size:24px;
+
+/* Styles pour le conteneur d'images sur la page d'accueil */
+.image-container {
+    font-size: 24px;
     margin-left: 35px;
     margin-bottom: 1000px;
 }
 
-.image-container img{
-  
+.image-container img {
     margin-left: 20px;
-    
-}
-#phone
-{
-    width:50px;
-    margin-right: 4000px;
-  
 }
 
-#facebook
-{
-    width:60px;
+/* Styles pour les icônes de réseaux sociaux */
+#phone {
+    width: 50px;
     margin-right: 4000px;
-   
-  
-}
-#insta
-{
-    width:70px;
-    margin-right: 4000px;
-  
 }
 
-#email
-{
-    width:60px;
+#facebook {
+    width: 60px;
     margin-right: 4000px;
-   
-  
+}
+
+#insta {
+    width: 70px;
+    margin-right: 4000px;
+}
+
+#email {
+    width: 60px;
+    margin-right: 4000px;
 }
