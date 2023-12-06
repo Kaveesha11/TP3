@@ -180,14 +180,24 @@ nav{
     justify-content: space-between;
 }
 /*code pour le formulaire*/
-.formulaire{
+
+.formulaire {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     justify-content: space-between;
     color: #f2ece7;
-    width: fit-content;
+    width: 400px; /* Adjust the width of the form */
+    margin-left: 900px;
 }
+
+.formulaire input {
+    width: 100%; /* Make the input fields fill the entire width of the form */
+    padding: 10px; /* Add padding for better visual appearance */
+    margin-top: 10px; /* Add space between input fields */
+}
+
+
 
 .texte-info{
     color: white;
