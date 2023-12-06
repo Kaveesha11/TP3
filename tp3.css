@@ -245,5 +245,10 @@ th:last-child a {
     opacity: 70%;
    
 }
+.rectangle img {
+    width: 40px; /* Make the images fill the entire width of the rectangle */
+    height: 40px; /* Maintain the aspect ratio */
+     /* Add space between images */
+}
 
 
