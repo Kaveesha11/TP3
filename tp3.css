@@ -252,27 +252,55 @@ th:last-child a {
 
 }
 
-
-.image-container {
+.rectangle {
+    width: 450px;
+    height: 600px;
+    background-color: rgb(1, 1, 50);
+    margin: 100px 80px 90px 100px;
+    border: 2px solid #ffffff;
+    border-radius: 60px;
     text-align: center;
-    margin-top: 20px;
+    line-height: 50px;
+    color: #fff;
+    font-size: 38px;
+    opacity: 0.7;
+}
+.image-container{
+    font-size:24px;
+    margin-left: 35px;
+    margin-bottom: 1000px;
+}
+
+.image-container img{
+  
+    margin-left: 20px;
+    
+}
+#phone
+{
+    width:50px;
+    margin-right: 4000px;
+  
+}
+
+#facebook
+{
+    width:60px;
+    margin-right: 4000px;
    
+  
+}
+#insta
+{
+    width:70px;
+    margin-right: 4000px;
+  
 }
 
-.image-container img {
-    width: 200px;
-    height: auto;
-    border-radius: 5px;
+#email
+{
+    width:60px;
+    margin-right: 4000px;
+   
+  
 }
-
-/* Adjust the font size for image descriptions */
-.image-container img {
-    margin-top: 10px;
-}
-
-.image-description {
-    font-size: 15px; /* Adjust the font size for image descriptions as needed */
-}
-
-
-
